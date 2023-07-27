@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa322c53454393ed775cfe4807d54a50",
+    "content-hash": "60926834da3b2bd6bab7550a1c922931",
     "packages": [
         {
             "name": "brick/math",
@@ -2993,6 +2993,68 @@
                 }
             ],
             "time": "2023-04-15T23:01:58+00:00"
+        },
+        {
+            "name": "slowlyo/owl-admin",
+            "version": "v2.7.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Slowlyo/owl-admin.git",
+                "reference": "51f8f6ba1554ac903622eec2a6dd26b20bb683e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Slowlyo/owl-admin/zipball/51f8f6ba1554ac903622eec2a6dd26b20bb683e5",
+                "reference": "51f8f6ba1554ac903622eec2a6dd26b20bb683e5",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~9|~10",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Slowlyo\\OwlAdmin\\AdminServiceProvider"
+                    ],
+                    "aliases": {
+                        "OwlAdmin": "Slowlyo\\OwlAdmin\\Facades\\OwlAdmin"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Support/helpers.php"
+                ],
+                "psr-4": {
+                    "Slowlyo\\OwlAdmin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Slowlyo",
+                    "email": "slowlyo_email@qq.com.com",
+                    "homepage": "https://gitee.com/slowlyo"
+                }
+            ],
+            "description": "采用 laravel、amis 打造的后台框架，拥有 120+ 种组件，只用后端代码就能实现复杂的页面效果，让开发者能够快速构建高效的后台管理系统。",
+            "homepage": "https://gitee.com/slowlyo/owl-admin",
+            "keywords": [
+                "OwlAdmin",
+                "admin",
+                "amis",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/Slowlyo/owl-admin/issues",
+                "source": "https://github.com/Slowlyo/owl-admin/tree/v2.7.5"
+            },
+            "time": "2023-07-24T03:44:14+00:00"
         },
         {
             "name": "symfony/console",
